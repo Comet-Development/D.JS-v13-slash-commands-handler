@@ -1,0 +1,26 @@
+{
+  "name": "lynx-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Structures/index.js",
+  "scripts": {
+    "bot": "node ./Structures/index.js"
+  },
+   "engines" : { 
+    "npm" : ">=8.5.5",
+    "node" : ">=16.14.2"
+  },
+  "author": "Lynx",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^0.25.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.6.0",
+    "glob": "^7.2.0",
+    "globe": "^0.3.1",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15",
+    "winston": "^3.4.0"
+  }
+}
